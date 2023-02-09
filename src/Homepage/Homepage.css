@@ -1,0 +1,48 @@
+
+.random-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+
+h1 {
+    margin: 40px 0;
+    font-family: 'Bungee Shade', cursive;
+    text-shadow: 1px 1px 2px black, 0 0 5px rgb(14, 196, 41), 0 0 2px rgb(7, 70, 15);
+}
+
+
+.random-card{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 500px;
+    width: 500px;
+    border-radius: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 15px rgb(14, 196, 41), 0 0 2px rgb(7, 70, 15);
+    box-shadow: 10px 10px 20px rgb(19, 21, 19);
+}
+
+
+img {
+    height: 200px;
+    width: 100%;
+    background-color: pink;
+
+}
+
+
+
+.random-card img {
+    height: 150px;
+    width: 200px;
+    border-radius: 20px;
+}
